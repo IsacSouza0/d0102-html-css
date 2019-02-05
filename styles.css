@@ -4,13 +4,40 @@ seletor {
 }
 */
 body{
-    background-color: gray;
+    font-family: sans-serif;
+    background-color: white;
     margin: 0;
+    background-image: url(https://estounaviagem.com.br/wp-content/uploads/2018/08/3-pilares-da-fotografia.png);
 }
 header{
-    background-color: blueviolet;
+    background-color: black;
 }
    nav a{
     text-decoration: none;
-color: black;
+    color: white;
+    font-size: 15px;
 }
+
+#header-pesquisa::placeholder{
+    color:blue;
+    font-size:15px;
+}
+aside{
+    color: darkblue;
+    text-decoration: blue;
+    font-size: 20px;
+}
+textarea{
+    resize: none;
+}
+.formulario-contato{
+    background-color:azure;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgb(83, 81, 81)
+
+}
+.formulario-contato p, .formulario-contato h3 { 
+    font-size: 18pt;
+}
+.negrito{
+    font-weight: bold;
